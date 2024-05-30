@@ -1,0 +1,45 @@
+.dsn-brand {
+  &.brand-radu .brand-item{
+    border-radius: 100px;
+  }
+  .brand-item {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @include media_768() {
+      border: 1px solid $border-color;
+    }
+  }
+
+  .brand-item-inner {
+    width: 175px;
+    margin: auto;
+    img {
+      margin: auto;
+    }
+  }
+
+  .brand-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+}
+
+.brand-scroll{
+  text-align: center;
+  overflow: hidden;
+    .brand-title{
+      font-size: 350px;
+      line-height: 250px;
+      opacity: 0.1;
+      text-transform: uppercase;
+    }
+
+}

@@ -1,0 +1,14 @@
+
+.post-content {
+  height: auto;
+  width: auto;
+  background-color: #FFF4E22E;
+  min-width: 45%;
+  left: 30px;
+  bottom: 30px;
+  max-width: calc(100% - 60px);
+
+  .post-title {
+    width: auto;
+  }
+}

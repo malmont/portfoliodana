@@ -1,0 +1,12 @@
+.dsn-award{
+  @include media_768(){
+    &.border-style{
+      border: 0;
+      grid-row-gap: 30px;
+      .award-item{
+        border: 1px solid $border-color;
+      }
+    }
+  }
+
+}

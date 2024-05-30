@@ -1,0 +1,47 @@
+.dsn-team {
+  .team-item-inner {
+    .box-img {
+      position: relative;
+      max-height: 450px;
+      overflow: hidden;
+      height: 470px;
+
+      &:before {
+        z-index: 1;
+      }
+
+      img {
+        transition: transform 0.8s cubic-bezier(0.24, 0.87, 0.24, 0.89);
+      }
+    }
+
+    .team-socials {
+      list-style: none;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      padding: 10px 20px;
+    }
+    .text-position{
+      position: absolute;
+      left: 20px;
+      top: 0;
+      padding: 10px;
+      z-index: 2;
+      transform-origin: 20px 20px;
+      transform: rotate(90deg);
+      font-size: 12px;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+}

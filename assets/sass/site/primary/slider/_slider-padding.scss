@@ -1,0 +1,32 @@
+.dsn-section-padding & {
+
+  @include media_768(min) {
+    .dsn-slider-content {
+      margin-left: 80px;
+      margin-right: 80px;
+      width: calc(100% - 160px);
+    }
+
+    canvas {
+      clip-path: inset(var(--margin-padding) var(--dsn-gap-container) var(--margin-padding) var(--dsn-gap-container));
+    }
+
+  }
+  @media only screen and (max-height: 700px) {
+    --margin-padding: 80px;
+  }
+
+
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    background-color: var(--assistant-color);
+  }
+
+
+}

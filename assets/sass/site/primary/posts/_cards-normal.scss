@@ -1,0 +1,27 @@
+&.box-image-normal {
+
+  .box-image-bg {
+    height: 70vh;
+  }
+  .section_description  {
+    width: 90%;
+  }
+
+  .post-title , .post-description-info  {
+    width: calc(100% - 50px);
+  }
+
+  .dsn-post-link {
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    padding: 12px 10px;
+    border-radius: 26px;
+
+    svg {
+      fill: $heading-color;
+    }
+  }
+
+
+}

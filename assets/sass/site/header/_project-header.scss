@@ -1,0 +1,21 @@
+
+.header-project {
+    .des_head {
+        z-index: 2;
+
+        @include media_768 {
+            padding-bottom: $margin-padding;
+            margin-left: 0;
+
+            .ml-auto {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .link-project {
+        @include media_991 {
+            display: none;
+        }
+    }
+}

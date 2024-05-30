@@ -1,0 +1,49 @@
+.control-nav {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  z-index: 3;
+  flex-wrap: wrap;
+  background: transparent;
+  bottom: 0;
+  height: 90px;
+
+
+  .swiper-slide:not(.swiper-slide-active) svg{
+    opacity: 0;
+  }
+
+  .btn-all {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+  }
+
+
+
+
+
+  .swiper-notification {
+    display: none;
+  }
+
+
+
+
+}
+
+
+@include media_768 {
+  .dsn-pagination, .dsn-swiper-paginate {
+    display: none;
+  }
+
+}
+
+
+.dsn-swiper-paginate > .swiper-pagination-vertical.swiper-pagination-bullets {
+  width: 20px;
+  right: 40px;
+
+}
