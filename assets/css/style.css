@@ -6347,3 +6347,31 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 100px;  /* Set fixed width */
+  height: 100px;  /* Set fixed height */
+  object-fit: contain;  /* Ensure the image fits within the specified dimensions */
+}
+
+@media (max-width: 768px) {
+  .logo {
+      width: 100px;  /* Adjust width for smaller screens */
+      height: 100px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+      width: 70px;   /* Further adjust width for mobile screens */
+      height: 70px;  /* Further adjust height for mobile screens */
+  }
+}
