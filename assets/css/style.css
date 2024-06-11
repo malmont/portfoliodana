@@ -6355,6 +6355,12 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   justify-content: center;
   gap: 20px;
 }
+.resizePicture {
+  
+  object-fit: contain;
+  object-position: center;
+ 
+}
 
 .logo {
   width: 100px;  /* Set fixed width */
@@ -6373,5 +6379,13 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   .logo {
       width: 70px;   /* Further adjust width for mobile screens */
       height: 70px;  /* Further adjust height for mobile screens */
+  }
+  .resizePicture {
+   
+    object-fit: contain;
+    object-position: right;
+  }
+  .desactivMobile {
+    display: none;
   }
 }
